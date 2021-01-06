@@ -12,12 +12,7 @@
 
 感谢在罗马帮我拍照的美术妹子，最喜欢这张照片了，当然还有之前帮我画这个形象照的妹子~
 
-<video
-  src="https://chengpeiquan.com/topic/netease/static/media/loading.mp4"
-  autoplay
-  muted
-  loop
-></video>
+![loading](https://chengpeiquan.com/topic/netease/static/media/loading.gif)
 
 ## Preview
 
