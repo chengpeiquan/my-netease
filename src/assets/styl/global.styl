@@ -1,0 +1,79 @@
+@import "config"
+
+html input, html select, html textarea
+  outline none
+  border 0
+::-moz-placeholder
+  color $color-note
+  font-size: 14px
+::-webkit-input-placeholder , ::-webkit-textarea-placeholder
+  color $color-note
+  font-size: 14px
+:-ms-input-placeholder , :-ms-textarea-placeholder
+  color $color-note
+  font-size: 14px
+
+
+*
+  font-family "Microsoft YaHei","Helvetica Neue",Arial,HelveticaNeue,Helvetica,"BBAlpha Sans",sans-serif
+
+body
+  position fixed
+  top 0
+  left 0
+  width 100%
+  height 100%
+
+.main
+  position absolute
+  top 0px
+  left 0px
+  width 100%
+  height 100%
+  background-color $color-bg
+  .page
+    background-image url('~@img/bg.jpg')
+    background-size cover
+    background-repeat no-repeat
+    background-position center
+    .content
+      position absolute
+      top $margin
+      right $margin
+      bottom $margin + 100px
+      left $margin
+      overflow-y auto
+      p
+        color $color-text
+        font-size 30px
+        line-height 1.8
+        text-indent 2em
+        text-align justify
+        &:first-child
+          margin-top 0
+        &:last-child
+          margin-bottom 0
+        &.hr
+          color $color-note
+          text-indent 0
+          text-align center
+          line-height 1px
+          border-left 240px solid $color-note
+          border-right 240px solid $color-note
+          margin 2em 0
+      img
+        width auto
+        height auto
+        max-width 100%
+        margin-top 20px
+      .youku-video
+        position relative
+        width 690px
+        height 389px
+        margin 0 auto
+        iframe
+          position absolute
+          top 0
+          left 0
+          width 100%
+          height 100%

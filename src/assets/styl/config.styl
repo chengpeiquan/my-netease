@@ -1,0 +1,32 @@
+// 常用尺寸
+$radius = 12px
+$margin = 30px
+
+// 常用配色
+$color-bg = #000
+$color-text = #fff
+$color-note = #999
+$color-hover = #fff000
+$color-mask = rgba(0,0,0,0.4)
+
+$color-white = #fff
+
+.fadeOut
+  animation fadeOut 2s
+  
+@keyframes fadeOut
+  0%
+    opacity 1
+  50%
+    opacity 0
+  100%
+    opacity 0
+
+.rotating
+  animation rotating 1.2s linear infinite
+
+@keyframes rotating
+  0%
+    transform rotate(0)
+  100%
+    transform rotate(360deg)
