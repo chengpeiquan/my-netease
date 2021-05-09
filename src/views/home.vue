@@ -5,41 +5,50 @@
     </div>
 
     <!-- 加载状态 -->
-    <Loading></Loading>
+    <Loading />
     <!-- 加载状态 -->
 
     <!-- 背景音乐 -->
-    <Music></Music>
+    <Music />
     <!-- 背景音乐 -->
 
-    <swiper class="swiper swiper-no-swiping" :options="swiperOption" ref="mySwiper">
+    <!-- 内容页面 -->
+    <swiper
+      ref="mySwiper"
+      class="swiper swiper-no-swiping"
+      :options="swiperOption"
+    >
       <swiper-slide class="page page-1">
-        <Page1></Page1>
+        <Page1 />
       </swiper-slide>
 
       <swiper-slide class="page page-2">
-        <Page2></Page2>
+        <Page2 />
       </swiper-slide>
 
       <swiper-slide class="page page-3">
-        <Page3></Page3>
+        <Page3 />
       </swiper-slide>
 
       <swiper-slide class="page page-4">
-        <Page4></Page4>
+        <Page4 />
       </swiper-slide>
 
       <swiper-slide class="page page-5">
-        <Page5></Page5>
+        <Page5 />
       </swiper-slide>
 
       <swiper-slide class="page page-6">
-        <Page6></Page6>
+        <Page6 />
       </swiper-slide>
     </swiper>
+    <!-- 内容页面 -->
 
     <!-- 年份导航 -->
-    <Header @turnPage="turnPage(arguments)" :page="page"></Header>
+    <Header
+      @turnPage="turnPage(arguments)"
+      :page="page"
+    />
     <!-- 年份导航 -->
   </div>
 </template>
@@ -56,7 +65,17 @@ import Page5 from '@cp/Page5'
 import Page6 from '@cp/Page6'
 
 export default {
-  components: { Loading, Music, Header, Page1, Page2, Page3, Page4, Page5, Page6 },
+  components: {
+    Loading,
+    Music,
+    Header,
+    Page1,
+    Page2,
+    Page3,
+    Page4,
+    Page5,
+    Page6
+  },
   data() {
     return {
       page: 0,
