@@ -23,10 +23,6 @@ export default {
   mounted () {
     this.setWebstieInfo();
   },
-  provide () {
-    return {
-    }
-  },
   watch: {
     $route (to, from) {
       if ( to.name === 'home' && !this.isMobile ) {

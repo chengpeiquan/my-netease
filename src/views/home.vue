@@ -73,8 +73,6 @@ export default {
       return this.$refs.mySwiper.$swiper
     }
   },
-  mounted () {
-  },
   methods: {
     turnPage (args) {
       const page = args[0];

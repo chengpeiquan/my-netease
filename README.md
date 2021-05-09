@@ -8,14 +8,14 @@
 
 ## Loading
 
-最喜欢的还是这个loading了，看着自己从真实慢慢过渡到形象，别有感慨！！！
+最喜欢的还是这个 loading 了，看着自己从真实慢慢过渡到形象，别有感慨！！！
 
 感谢在罗马帮我拍照的美术妹子，最喜欢这张照片了，当然还有之前帮我画这个形象照的妹子~
 
-![loading](https://chengpeiquan.com/topic/netease/static/media/loading.gif)
+![loading](https://cdn.jsdelivr.net/gh/chengpeiquan/assets-storage/img/2020/06/my-netease/loading.gif)
 
 ## Preview
 
 话不多说，扫码看咯~
 
-![扫码预览](https://chengpeiquan.com/topic/netease/static/img/qrcode.18ed2723.jpg)
+![扫码预览](https://cdn.jsdelivr.net/gh/chengpeiquan/assets-storage/img/2020/06/my-netease/qrcode.jpg)

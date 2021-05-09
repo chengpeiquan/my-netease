@@ -26,10 +26,6 @@ export default {
         '2020'
       ]
     }
-  },
-  mounted () {
-  },
-  methods: {
   }
 };
 </script>

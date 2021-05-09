@@ -1,23 +1,10 @@
 <template>
   <div class="main">
-    <div class="qrcode" style="width: 300px; height: 300px; margin-top: -150px; margin-left: -150px;">
-      <img src="~@img/qrcode.jpg" alt="">
+    <div class="qrcode">
+      <img src="~@img/qrcode.jpg" alt="扫码观看">
     </div>
   </div>
 </template>
-
-<script>
-export default {
-  data() {
-    return {
-    }
-  },
-  mounted() {
-  },
-  methods: {
-  }
-};
-</script>
 
 <style lang="stylus" scoped>
 @import "~@styl/config"
@@ -26,6 +13,10 @@ export default {
   position absolute
   top 50%
   left 50%
+  width 300px
+  height 300px
+  margin-top -150px
+  margin-left -150px
   overflow hidden
   img
     width 100%

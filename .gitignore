@@ -29,4 +29,5 @@ bh_unicode_properties.cache
 # https://packagecontrol.io/packages/sublime-github
 GitHub.sublime-settings
 node_modules
+dist
 package-lock.json

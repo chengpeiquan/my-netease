@@ -3,7 +3,7 @@ const path = require('path');
 const resolve = dir => path.join(__dirname, dir);
 
 module.exports = {
-  publicPath: './',
+  publicPath: process.env.NODE_ENV === 'development' ? '/' : 'https://cdn.jsdelivr.net/gh/chengpeiquan/my-netease@gh-pages/',
   assetsDir: 'static',
   productionSourceMap: false,
   lintOnSave: false,
@@ -57,7 +57,7 @@ module.exports = {
           })
         .end()
   },
-  configureWebpack: config => {
+  configureWebpack: () => {
     if (process.env.NODE_ENV !== 'production') return;
     return {
       plugins: [

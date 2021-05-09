@@ -19,7 +19,7 @@ export default {
     return {
       isPlaying: false,
       isHasFirstTouched: false,
-      music: './static/media/jingzizhong.mp3'
+      music: 'https://cdn.jsdelivr.net/gh/chengpeiquan/assets-storage/audio/jingzizhong.mp3'
     }
   },
   computed: {
