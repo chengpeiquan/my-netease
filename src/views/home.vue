@@ -1,9 +1,5 @@
 <template>
   <div class="main">
-    <div class="thumb">
-      <img src="~@img/me-share.jpg" alt="">
-    </div>
-
     <!-- 加载状态 -->
     <Loading />
     <!-- 加载状态 -->
@@ -45,10 +41,7 @@
     <!-- 内容页面 -->
 
     <!-- 年份导航 -->
-    <Header
-      @turnPage="turnPage(arguments)"
-      :page="page"
-    />
+    <Header @turnPage="turnPage(arguments)" :page="page" />
     <!-- 年份导航 -->
   </div>
 </template>
@@ -74,7 +67,7 @@ export default {
     Page3,
     Page4,
     Page5,
-    Page6
+    Page6,
   },
   data() {
     return {
@@ -83,32 +76,29 @@ export default {
         direction: 'vertical',
         speed: 800,
         resistanceRatio: 0,
-        effect: 'fade'
-      }
+        effect: 'fade',
+      },
     }
   },
   computed: {
-    swiper () {
+    swiper() {
       return this.$refs.mySwiper.$swiper
-    }
+    },
   },
   methods: {
-    turnPage (args) {
-      const page = args[0];
-      this.page = page;
-      this.swiper.slideTo(page);
-      document.querySelector(`.page-${page + 1} .content`).scrollTop = 0;
-    }
-  }
-};
+    turnPage(args) {
+      const page = args[0]
+      this.page = page
+      this.swiper.slideTo(page)
+      document.querySelector(`.page-${page + 1} .content`).scrollTop = 0
+    },
+  },
+}
 </script>
 
 <style lang="stylus" scoped>
 @import "~@styl/config"
 
-.thumb
-  width 0
-  height 0
 .swiper-container
   position absolute
   top 0

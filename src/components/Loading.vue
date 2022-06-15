@@ -1,22 +1,18 @@
 <template>
-  <div
-    class="loading"
-    :class="{ fadeOut: !isLoading }"
-    v-if="isShow"
-  >
+  <div class="loading" :class="{ fadeOut: !isLoading }" v-if="isShow">
     <div class="me">
       <img
         ref="me"
         class="top"
         :style="`clip: rect(0px, ${width}px, ${height}px, 0px);`"
-        src="~@img/me-real.jpg"
+        src="//cdn.chengpeiquan.com/my-netease/img/me-real.jpg"
         alt=""
-      >
+      />
       <img
         class="bottom"
-        src="~@img/me.jpg"
+        src="//cdn.chengpeiquan.com/my-netease/img/me.jpg"
         alt=""
-      >
+      />
       <div class="progress">{{ progress }}%</div>
     </div>
   </div>
@@ -24,7 +20,7 @@
 
 <script>
 export default {
-  data () {
+  data() {
     return {
       isLoading: true,
       isShow: true,
@@ -32,61 +28,61 @@ export default {
       height: 0,
       realHeight: 0,
       progress: 0,
-      mainfest: []
+      mainfest: [],
     }
   },
-  mounted () {
-    this.initLoading();
+  mounted() {
+    this.initLoading()
   },
   methods: {
-    initLoading () {
-      const pic = new Image();
+    initLoading() {
+      const pic = new Image()
       pic.onload = () => {
         // 因为是移动端，不能直接获取px，要获取渲染后dom的宽度高度
-        const me = this.$refs.me;
-        this.width = me.width;
-        this.height = me.height;
-        this.realHeight = me.height;
+        const me = this.$refs.me
+        this.width = me.width
+        this.height = me.height
+        this.realHeight = me.height
         // console.log(this.width, this.height, this.realHeight)
 
         // 开始loading
-        this.startLoading();
+        this.startLoading()
       }
-      pic.src = require('@img/me.jpg');
+      pic.src = require('@img/me.jpg')
     },
-    startLoading () {
-      let time = Math.ceil( Math.random() * 100 );
+    startLoading() {
+      let time = Math.ceil(Math.random() * 100)
 
-      const load = setInterval( () => {
+      const load = setInterval(() => {
         // 拉起盖在上层的真人照
-        if ( this.height > 0 ) {
+        if (this.height > 0) {
           // 重新生成随机时间，显得逼真一些
-          time = Math.ceil( Math.random() * 100 );
+          time = Math.ceil(Math.random() * 100)
 
           // 通过减少高度来实现画布拉起效果
-          this.height--;
+          this.height--
 
           // 计算剩余高度跟真实高度之间的占比，用于计算拉取进度
-          const pre = Math.ceil( (this.height / this.realHeight) * 100 );
-          this.progress = 100 - pre;
+          const pre = Math.ceil((this.height / this.realHeight) * 100)
+          this.progress = 100 - pre
         }
         // 拉起完毕
         else {
           // 记得要清除定时器
-          clearInterval(load);
+          clearInterval(load)
 
           // 关闭loading状态，用于绑定fadeOut的样式
-          this.isLoading = false;
+          this.isLoading = false
 
           // fadeOut之后，销毁loading组件
-          setTimeout( () => {
-            this.isShow = false;
-          }, 500);
+          setTimeout(() => {
+            this.isShow = false
+          }, 500)
         }
-      }, time);
-    }
-  }
-};
+      }, time)
+    },
+  },
+}
 </script>
 
 <style lang="stylus" scoped>
@@ -125,7 +121,7 @@ export default {
       left 0px
       width 100%
       height 100px
-      line-height @height 
+      line-height @height
       font-size 32px
       font-weight bold
       text-align center

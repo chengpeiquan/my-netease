@@ -5,54 +5,53 @@
     <!-- 播放按钮 -->
     <div
       class="control"
-      :class="[ { pause: !isPlaying }, { rotating: isPlaying } ]"
+      :class="[{ pause: !isPlaying }, { rotating: isPlaying }]"
       @click="control"
-    >
-    </div>
+    ></div>
     <!-- 播放按钮 -->
   </div>
 </template>
 
 <script>
 export default {
-  data () {
+  data() {
     return {
       isPlaying: false,
       isHasFirstTouched: false,
-      music: 'https://cdn.jsdelivr.net/gh/chengpeiquan/assets-storage/audio/jingzizhong.mp3'
+      music: '//cdn.chengpeiquan.com/mp3/jingzizhong.mp3',
     }
   },
   computed: {
-    bgm () {
-      return this.$refs.bgm;
-    }
+    bgm() {
+      return this.$refs.bgm
+    },
   },
-  mounted () {
-    this.initMusic();
+  mounted() {
+    this.initMusic()
   },
   methods: {
-    initMusic () {
+    initMusic() {
       // 触屏开始播放
       document.addEventListener('touchstart', () => {
-        if ( !this.isPlaying && !this.isHasFirstTouched ) {
-          this.play();
-          this.isHasFirstTouched = true;
+        if (!this.isPlaying && !this.isHasFirstTouched) {
+          this.play()
+          this.isHasFirstTouched = true
         }
-      });
+      })
     },
-    control () {
-      this.isPlaying ? this.pause() : this.play();
+    control() {
+      this.isPlaying ? this.pause() : this.play()
     },
-    play () {
-      this.bgm.play();
-      this.isPlaying = true;
+    play() {
+      this.bgm.play()
+      this.isPlaying = true
     },
-    pause () {
-      this.bgm.pause();
-      this.isPlaying = false;
-    }
-  }
-};
+    pause() {
+      this.bgm.pause()
+      this.isPlaying = false
+    },
+  },
+}
 </script>
 
 <style lang="stylus" scoped>
@@ -74,10 +73,10 @@ export default {
     left 0
     width 100%
     height @width
-    background-image url('~@img/music.png')
+    background-image url('//cdn.chengpeiquan.com/my-netease/img/music.png')
     background-repeat no-repeat
     background-position center
     background-size 100% 100%
     &.pause
-      background-image url('~@img/music-pause.png')
+      background-image url('//cdn.chengpeiquan.com/my-netease/img/music-pause.png')
 </style>
