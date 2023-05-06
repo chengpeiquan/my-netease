@@ -15,15 +15,15 @@
     <img src="//cdn.chengpeiquan.com/my-netease/img/page4/3.jpg" />
     <img src="//cdn.chengpeiquan.com/my-netease/img/page4/4.jpg" />
     <p>
-      5
-      月，去找阿吉帮忙看怎么填充新的图案，画了一下午，最后觉得都不太合适，不过那天画在手臂上的图案倒是让我更向往满手纹身的样子。
+      5 月，去找 Johnny
+      帮忙看怎么填充新的图案，画了一下午，最后觉得都不太合适，不过那天画在手臂上的图案倒是让我更向往满手纹身的样子。
     </p>
     <img src="//cdn.chengpeiquan.com/my-netease/img/page4/5.jpg" />
     <p>7 月，头发已经到肩膀了。</p>
     <img src="//cdn.chengpeiquan.com/my-netease/img/page4/6.jpg" />
     <p>
-      8
-      月，阿吉给我加了第五个图案，大臂内侧这个位置好痛哈哈哈哈哈哈哈，可能是太嫩了这个部位。
+      8 月， Johnny
+      给我加了第五个图案，大臂内侧这个位置好痛哈哈哈哈哈哈哈，可能是太嫩了这个部位。
     </p>
     <img src="//cdn.chengpeiquan.com/my-netease/img/page4/7.jpg" />
     <img src="//cdn.chengpeiquan.com/my-netease/img/page4/8.jpg" />

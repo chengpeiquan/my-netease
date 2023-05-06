@@ -8,10 +8,7 @@
     </p>
     <p>要加强锻炼啊！！！！！</p>
     <img src="//cdn.chengpeiquan.com/my-netease/img/page6/2.jpg" />
-    <p>
-      3 月疫情好转，终于可以回广州，师妹给我买了个小奶锅煮面做早餐，庆祝我康复。
-    </p>
-    <img src="//cdn.chengpeiquan.com/my-netease/img/page6/3.jpg" />
+    <p>3 月疫情好转，终于可以回广州了，身体也刚好康复。</p>
     <p>
       疫情期间闲下来思考了很多，从这两年的工作内容、产品线业务情况、发展方向等等，思考了蛮多东西，代码越写越少，
       PPT

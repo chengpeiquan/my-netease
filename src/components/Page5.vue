@@ -1,6 +1,6 @@
 <template>
   <section class="content">
-    <p>元旦，找阿吉加了第六个图，鲤鱼抱元宝，直接纹到了手腕。</p>
+    <p>元旦，找 Johnny 加了第六个图，鲤鱼抱元宝，直接纹到了手腕。</p>
     <img src="//cdn.chengpeiquan.com/my-netease/img/page5/1.jpg" />
     <img src="//cdn.chengpeiquan.com/my-netease/img/page5/2.jpg" />
     <p>1 月 12 号，和璐璐去看了小雨乐队的演出，民乐金属的魅力真的很大！！！</p>
@@ -41,8 +41,7 @@
     </p>
     <img src="//cdn.chengpeiquan.com/my-netease/img/page5/18.jpg" />
     <p>
-      是的，我朋友圈里的师妹，就是她，没有别人 hhhhhh
-      ，那次本来想约一起去醒山的演出，可惜演出的时间刚好我在泰国，有点可惜，我到现在还没看到醒山的现场呢！
+      那次本来想约一起去醒山的演出，可惜演出的时间刚好我在泰国，有点可惜，我到现在还没看到醒山的现场呢！
     </p>
     <p>
       6
@@ -51,20 +50,7 @@
     <img src="//cdn.chengpeiquan.com/my-netease/img/page5/19.jpg" />
     <img src="//cdn.chengpeiquan.com/my-netease/img/page5/20.jpg" />
     <img src="//cdn.chengpeiquan.com/my-netease/img/page5/21.jpg" />
-    <p>8 月生日，师妹给我买了生日礼物，超开心！！！</p>
-    <img src="//cdn.chengpeiquan.com/my-netease/img/page5/22.jpg" />
-    <img src="//cdn.chengpeiquan.com/my-netease/img/page5/23.jpg" />
-    <p>
-      生日后的那个周五晚上，师妹等我加完班，带我飞了一波学生才有的晚市 69
-      折的海底捞， 5 点半下班的她，等我 9
-      点加完班一起去赶晚市，第一次见面一点都不拘束，特别活泼！
-    </p>
-    <p>
-      9 月，在某次和师妹吃饭的过程中，给我试戴了她的耳环，然后我入坑了 - -
-      回来了买了一堆耳钉哈哈哈哈哈哈哈哈哈哈
-    </p>
-    <img src="//cdn.chengpeiquan.com/my-netease/img/page5/24.jpg" />
-    <img src="//cdn.chengpeiquan.com/my-netease/img/page5/25.jpg" />
+    <p>民乐金属真的太好听了！！！再次疯狂安利！！！</p>
     <p>
       12
       月，抢到了乐夏的演出票，可惜新年碰上疫情没有如期举行，还不知道会延期到什么时候…

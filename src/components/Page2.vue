@@ -127,7 +127,8 @@
     <img src="//cdn.chengpeiquan.com/my-netease/img/page2/30.jpg" />
     <img src="//cdn.chengpeiquan.com/my-netease/img/page2/31.jpg" />
     <p>
-      杭州回来后，以我的琴为原型，在阿吉的帮助下，设计出了我第一个纹身，从此踏上了花臂的不归路……（褒义词！哈哈哈！）
+      杭州回来后，以我的琴为原型，在 Johnny
+      的帮助下，设计出了我第一个纹身，从此踏上了花臂的不归路……（褒义词！哈哈哈！）
     </p>
     <img src="//cdn.chengpeiquan.com/my-netease/img/page2/32.jpg" />
     <img src="//cdn.chengpeiquan.com/my-netease/img/page2/33.jpg" />
