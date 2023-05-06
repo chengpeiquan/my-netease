@@ -55,8 +55,16 @@ module.exports = {
       .end()
   },
   configureWebpack: () => {
-    if (process.env.NODE_ENV !== 'production') return
     return {
+      module: {
+        rules: [
+          {
+            test: /\.mjs$/,
+            include: /node_modules/,
+            type: 'javascript/auto',
+          },
+        ],
+      },
       plugins: [
         new webpack.BannerPlugin(
           `name: ${pkg.name}\nversion: v${pkg.version}\ndescription: ${pkg.description}\nauthor: ${pkg.author}\nhomepage: ${pkg.homepage}\n`

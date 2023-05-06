@@ -12,6 +12,7 @@
     "format": "prettier --write ."
   },
   "dependencies": {
+    "@web-analytics/core": "^0.1.2",
     "core-js": "^3.6.5",
     "swiper": "^6.5.1",
     "vue": "^2.6.11",
